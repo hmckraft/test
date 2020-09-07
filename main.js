@@ -1,4 +1,19 @@
 // holder place for javascript
-let btnbutton = document.querySelector('#button');
+let btnList = document.getElementsByTagName('button');
+let btn = btnList[0];
 
-btnbutton.addEventListener('click', () => btnbutton.style.backgroundcolor= '$4cae4c')
+let boxList = document.getElementsByClassName('box');
+let box = boxList[0];
+
+let isBoxShowing = false;
+
+btn.addEventListener('click', () => {
+    console.log('isBoxShowing', isBoxShowing)
+    if (isBoxShowing) {
+        box.style.display = 'none';
+        isBoxShowing = false;
+    } else {
+        box.style.display = 'block';
+        isBoxShowing = true;
+    }
+});
