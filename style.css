@@ -1,6 +1,41 @@
 /** this is place holder for css **/ 
 
+.leftside {
+    height: 95vh;
+    width: 50%;
+    float: left;
+    background: rgb(124, 80, 80);
+
+}
+
+
+.rightside {
+    height: 95vh;
+    width: 50%;
+    float: right;
+    background: rgb(92, 128, 113);
+
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+
 button {
+    margin-left: 20px;
     background-color: rgb(82, 60, 97);
     padding: 15px 30px;
     font-size: 15px;
@@ -9,11 +44,19 @@ button {
     cursor: pointer;
 } 
 
-img {
+
+
+img.center {
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
     height: 475px;
     width: 350px;
     padding: 20px 20px 20px 20px;
     border: 5px solid black;
+    
+
 }
 
 .box {
@@ -26,5 +69,6 @@ img {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
+    margin-left: 20px;
 }
 
