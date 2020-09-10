@@ -1,7 +1,16 @@
 /** this is place holder for css **/ 
 
+
+.rightside {
+    height: 200vh;
+    width: 50%;
+    float: right;
+    background: rgb(160, 133, 133);
+
+}
+
 .leftside {
-    height: 95vh;
+    height: 200vh;
     width: 50%;
     float: left;
     background: rgb(160, 133, 133);
@@ -9,16 +18,11 @@
 }
 
 
-.rightside {
-    height: 95vh;
-    width: 50%;
-    float: right;
-    background: rgb(160, 133, 133);
-
-}
 
 h1 {
+    color: white;
     margin-left: 20px;
+    background: black;
 }
 
 h2 {
@@ -36,12 +40,13 @@ p {
 
 button {
     margin-left: 20px;
-    background-color: rgb(82, 60, 97);
+    background-color: rgb(102, 138, 113);
     padding: 15px 30px;
     font-size: 15px;
     font-variant-caps: small-caps;
     color: white;
     cursor: pointer;
+    width: 200px;
 } 
 
 
@@ -49,19 +54,20 @@ button {
 img.center {
 
     display: block;
-    margin: 0 auto;
-    margin-top: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
     height: 475px;
     width: 350px;
     padding: 20px 20px 20px 20px;
     border: 5px solid black;
     
 
-}
+} 
 
-.box {
+
+/**.box {
     display: none;
-    height:50px;
+    height:500px;
     width: 360px;
     background-color: peachpuff;
     padding: 20px 20px 20px 20px;
@@ -70,5 +76,5 @@ img.center {
     font-size: 25px;
     font-weight: bold;
     margin-left: 20px;
-}
+}**/
 
