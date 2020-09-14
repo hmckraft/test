@@ -1,19 +1,31 @@
 /** this is place holder for css **/ 
 
 
-.rightside {
-    height: 200vh;
+    body { 
+   font-family: 'Montserrat', sans-serif;
+
+} 
+
+.rightside { 
+    height: 1050px;
     width: 50%;
     float: right;
     background: rgb(160, 133, 133);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 10px;
+    padding-top: 50px;
+    
 
 }
 
-.leftside {
-    height: 200vh;
+.leftside { 
+    height: 1100px;
     width: 50%;
     float: left;
     background: rgb(160, 133, 133);
+
 
 }
 
@@ -21,8 +33,12 @@
 
 h1 {
     color: white;
+    text-align: center;
+    padding: 20px;
     margin-left: 20px;
+    margin-right: 20px;
     background: black;
+    
 }
 
 h2 {
@@ -64,17 +80,12 @@ img.center {
 
 } 
 
-
-/**.box {
-    display: none;
-    height:500px;
-    width: 360px;
-    background-color: peachpuff;
-    padding: 20px 20px 20px 20px;
-    font-style: italic;
+#footer {
+    padding-top: 1150px;
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    margin-left: 20px;
-}**/
+    background-color: bisque;
+
+    
+}
+
 
